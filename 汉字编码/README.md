@@ -28,7 +28,7 @@
 ## 二、运行环境
 c++  
 codeblocks 20.03  
-python 3.8    
+anaconda3 python 3.8       
 PyCharm 2021.1.1 (Professional Edition)
 ## 三、运行结果
 输入：
