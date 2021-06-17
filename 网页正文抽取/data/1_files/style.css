@@ -1,0 +1,49 @@
+.all
+{
+	width: 800px;
+	background-color: #FFFFFF;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.name
+{
+	font-size:28px;
+}
+
+.title
+{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+}
+
+a
+{
+	color:#2828FF;
+	font-weight:normal;
+	text-underline:single;
+}
+
+.contact
+{
+	text-decoration:none;
+	color:#2828FF;
+	font-weight: bold;
+}
+
+i
+{
+	color:#000000;
+}
+
+ix
+{
+	color:#000000;
+}
+
+.course
+{
+	font-weight: bold;
+	text-align: left;	
+}
