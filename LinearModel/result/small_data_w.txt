@@ -1,0 +1,81 @@
+一、读入数据
+数据集train.conll：句子数：803,  总词数：20454,  词性种类数：31
+数据集dev.conll：句子数：1910,  总词数：50319,  词性种类数：30
+
+二、创建特征空间
+特征空间维度=词性种类数×部分特征数=31×67359=2088129
+
+三、LinearModel开始训练
+
+iteration 1 训练完成
+训练集train.conll：Accuracy = 16339 / 20454 = 0.7988168573384179
+验证集dev.conll：Accuracy = 41202 / 50319 = 0.8188159542121266
+
+iteration 2 训练完成
+训练集train.conll：Accuracy = 19246 / 20454 = 0.9409406473061503
+验证集dev.conll：Accuracy = 41919 / 50319 = 0.8330650450128182
+
+iteration 3 训练完成
+训练集train.conll：Accuracy = 19852 / 20454 = 0.9705681040383299
+验证集dev.conll：Accuracy = 42686 / 50319 = 0.8483077962598621
+
+iteration 4 训练完成
+训练集train.conll：Accuracy = 20148 / 20454 = 0.9850396010560282
+验证集dev.conll：Accuracy = 43001 / 50319 = 0.8545678570718814
+
+iteration 5 训练完成
+训练集train.conll：Accuracy = 20313 / 20454 = 0.9931064828395424
+验证集dev.conll：Accuracy = 43016 / 50319 = 0.8548659552057871
+
+iteration 6 训练完成
+训练集train.conll：Accuracy = 20401 / 20454 = 0.99740881979075
+验证集dev.conll：Accuracy = 43055 / 50319 = 0.8556410103539418
+
+iteration 7 训练完成
+训练集train.conll：Accuracy = 20420 / 20454 = 0.9983377334506698
+验证集dev.conll：Accuracy = 43169 / 50319 = 0.857906556171625
+
+iteration 8 训练完成
+训练集train.conll：Accuracy = 20441 / 20454 = 0.9993644274958443
+验证集dev.conll：Accuracy = 43163 / 50319 = 0.8577873169180628
+
+iteration 9 训练完成
+训练集train.conll：Accuracy = 20443 / 20454 = 0.9994622078810991
+验证集dev.conll：Accuracy = 43147 / 50319 = 0.85746934557523
+
+iteration 10 训练完成
+训练集train.conll：Accuracy = 20453 / 20454 = 0.9999511098073727
+验证集dev.conll：Accuracy = 43145 / 50319 = 0.8574295991573759
+
+iteration 11 训练完成
+训练集train.conll：Accuracy = 20454 / 20454 = 1.0
+验证集dev.conll：Accuracy = 43145 / 50319 = 0.8574295991573759
+
+iteration 12 训练完成
+训练集train.conll：Accuracy = 20454 / 20454 = 1.0
+验证集dev.conll：Accuracy = 43145 / 50319 = 0.8574295991573759
+
+iteration 13 训练完成
+训练集train.conll：Accuracy = 20454 / 20454 = 1.0
+验证集dev.conll：Accuracy = 43145 / 50319 = 0.8574295991573759
+
+iteration 14 训练完成
+训练集train.conll：Accuracy = 20454 / 20454 = 1.0
+验证集dev.conll：Accuracy = 43145 / 50319 = 0.8574295991573759
+
+iteration 15 训练完成
+训练集train.conll：Accuracy = 20454 / 20454 = 1.0
+验证集dev.conll：Accuracy = 43145 / 50319 = 0.8574295991573759
+
+iteration 16 训练完成
+训练集train.conll：Accuracy = 20454 / 20454 = 1.0
+验证集dev.conll：Accuracy = 43145 / 50319 = 0.8574295991573759
+
+iteration 17 训练完成
+训练集train.conll：Accuracy = 20454 / 20454 = 1.0
+验证集dev.conll：Accuracy = 43145 / 50319 = 0.8574295991573759
+
+验证集正确率连续10轮没有上升,LinearModel结束训练。
+验证集最大正确率：iteration：7,  Max Accuracy：0.857906556171625
+
+四、总共耗时：0:03:39.260136
