@@ -30,12 +30,14 @@ windows10
 anaconda3 python 3.8       
 PyCharm 2021.1.2 (Professional Edition)
 ### (2)大数据集
+<!-- 
 linux    
 anaconda3 python 3.8
 ```
 srceen -s LinearModel
 python3.8 mian.py
 ```
+-->
 ## 三、运行结果
 ### (1)小数据集
  Averaged Perceptron  | shuffle | 验证集最大正确率 | 总共耗时 |
