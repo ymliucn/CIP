@@ -1,5 +1,5 @@
 
-# LinearModel
+# LogLinearModel
 ## 一、目录结构
 ```
 .
@@ -13,15 +13,16 @@
 |       |-- dev.conll
 |       `-- train.conll
 |-- result
-|   |-- small_data_v.txt
-|   `-- small_data_w.txt
+|   |-- small_data_optimized.txt
+|   `-- small_data_original.txt
 `-- src
-    |-- LinearModel.py
+    |-- LogLinearModel.py
     |-- config.py
     |-- dataset.py
-    `-- main.py
+    |-- main.py
+    `-- utils.py
 
-5 directories, 12 files
+5 directories, 13 files
 ```
 
 ## 二、运行环境
