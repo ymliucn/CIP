@@ -1,0 +1,94 @@
+一、读入数据
+数据集train.conll：句子数：803,  总词数：20454,  词性种类数：31
+数据集dev.conll：句子数：1910,  总词数：50319,  词性种类数：30
+
+二、创建特征空间
+特征空间维度=词性种类数×部分特征数=31×67359=2088129
+
+三、GlobalLinearModel开始训练
+
+iteration 1 训练完成
+训练集train.conll：Accuracy = 16161 / 20454 = 0.790114403050748
+验证集dev.conll：Accuracy = 42116 / 50319 = 0.8369800671714461
+
+iteration 2 训练完成
+训练集train.conll：Accuracy = 19231 / 20454 = 0.94020729441674
+验证集dev.conll：Accuracy = 43408 / 50319 = 0.8626562531051889
+
+iteration 3 训练完成
+训练集train.conll：Accuracy = 19800 / 20454 = 0.9680258140217073
+验证集dev.conll：Accuracy = 43943 / 50319 = 0.8732884198811582
+
+iteration 4 训练完成
+训练集train.conll：Accuracy = 20115 / 20454 = 0.9834262246993253
+验证集dev.conll：Accuracy = 44103 / 50319 = 0.8764681333094855
+
+iteration 5 训练完成
+训练集train.conll：Accuracy = 20227 / 20454 = 0.9889019262735895
+验证集dev.conll：Accuracy = 44231 / 50319 = 0.8790119040521474
+
+iteration 6 训练完成
+训练集train.conll：Accuracy = 20294 / 20454 = 0.9921775691796225
+验证集dev.conll：Accuracy = 44269 / 50319 = 0.879767085991375
+
+iteration 7 训练完成
+训练集train.conll：Accuracy = 20344 / 20454 = 0.9946220788109905
+验证集dev.conll：Accuracy = 44319 / 50319 = 0.8807607464377273
+
+iteration 8 训练完成
+训练集train.conll：Accuracy = 20374 / 20454 = 0.9960887845898113
+验证集dev.conll：Accuracy = 44347 / 50319 = 0.8813171962876846
+
+iteration 9 训练完成
+训练集train.conll：Accuracy = 20377 / 20454 = 0.9962354551676934
+验证集dev.conll：Accuracy = 44352 / 50319 = 0.8814165623323198
+
+iteration 10 训练完成
+训练集train.conll：Accuracy = 20409 / 20454 = 0.9977999413317689
+验证集dev.conll：Accuracy = 44349 / 50319 = 0.8813569427055387
+
+iteration 11 训练完成
+训练集train.conll：Accuracy = 20435 / 20454 = 0.9990710863400801
+验证集dev.conll：Accuracy = 44357 / 50319 = 0.881515928376955
+
+iteration 12 训练完成
+训练集train.conll：Accuracy = 20438 / 20454 = 0.9992177569179622
+验证集dev.conll：Accuracy = 44361 / 50319 = 0.8815954212126632
+
+iteration 13 训练完成
+训练集train.conll：Accuracy = 20436 / 20454 = 0.9991199765327076
+验证集dev.conll：Accuracy = 44375 / 50319 = 0.8818736461376419
+
+iteration 14 训练完成
+训练集train.conll：Accuracy = 20449 / 20454 = 0.9997555490368633
+验证集dev.conll：Accuracy = 44374 / 50319 = 0.8818537729287148
+
+iteration 15 训练完成
+训练集train.conll：Accuracy = 20446 / 20454 = 0.9996088784589812
+验证集dev.conll：Accuracy = 44388 / 50319 = 0.8821319978536935
+
+iteration 16 训练完成
+训练集train.conll：Accuracy = 20452 / 20454 = 0.9999022196147452
+验证集dev.conll：Accuracy = 44388 / 50319 = 0.8821319978536935
+
+iteration 17 训练完成
+训练集train.conll：Accuracy = 20454 / 20454 = 1.0
+验证集dev.conll：Accuracy = 44388 / 50319 = 0.8821319978536935
+
+iteration 18 训练完成
+训练集train.conll：Accuracy = 20454 / 20454 = 1.0
+验证集dev.conll：Accuracy = 44388 / 50319 = 0.8821319978536935
+
+iteration 19 训练完成
+训练集train.conll：Accuracy = 20454 / 20454 = 1.0
+验证集dev.conll：Accuracy = 44388 / 50319 = 0.8821319978536935
+
+iteration 20 训练完成
+训练集train.conll：Accuracy = 20454 / 20454 = 1.0
+验证集dev.conll：Accuracy = 44388 / 50319 = 0.8821319978536935
+
+验证集正确率连续5轮没有上升,GlobalLinearModel结束训练。
+
+验证集最大正确率：iteration：15,  Max Accuracy：0.8821319978536935
+
+四、总共耗时：0:05:42.915236
