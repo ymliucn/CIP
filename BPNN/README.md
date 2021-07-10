@@ -9,20 +9,24 @@
 |   |   |-- dev
 |   |   |-- test
 |   |   `-- train
+|   |-- embedding
+|   |   `-- giga.100.txt
 |   `-- small_dataset
 |       |-- dev.conll
 |       `-- train.conll
 |-- result
-|   |-- small_data_optimized.txt
-|   `-- small_data_original.txt
+|   |-- big_dataset_result.txt
+|   `-- small_dataset_result.txt
 `-- src
-    |-- LogLinearModel.py
+    |-- bpnn.py
     |-- config.py
+    |-- dataloader.py
     |-- dataset.py
+    |-- embedding.py
     |-- main.py
     `-- utils.py
 
-5 directories, 13 files
+6 directories, 16 files
 ```
 
 ## 二、运行环境
