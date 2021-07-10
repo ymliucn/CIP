@@ -1,0 +1,132 @@
+一、读入数据
+数据集train.conll：句子数：803,  总词数：20454,  不重复的词数：4537,  不重复的词性数：31
+数据集dev.conll：句子数：1910,  总词数：50319,  不重复的词数：8577,  不重复的词性数：30
+
+二、Embedding
+初始词向量矩阵：词数：372850,  词向量维度：100
+通过数据集train.conll扩展后,  词向量矩阵新增词数：625,  扩展后词数：373475
+数据集train.conll增加上下文窗口：数据集样本维度：20454,  每个样本中词性对应的上下文词数目：5
+数据集dev.conll增加上下文窗口：数据集样本维度：50319,  每个样本中词性对应的上下文词数目：5
+
+三、BP神经网络开始训练
+
+epoch 1 训练完成
+训练集train.conll：Accuracy = 18224 / 20454 = 0.8909748704409896
+验证集dev.conll：Accuracy = 41975 / 50319 = 0.8341779447127328
+
+epoch 2 训练完成
+训练集train.conll：Accuracy = 17505 / 20454 = 0.8558228219419185
+验证集dev.conll：Accuracy = 39789 / 50319 = 0.7907351099982114
+
+epoch 3 训练完成
+训练集train.conll：Accuracy = 19262 / 20454 = 0.9417228903881881
+验证集dev.conll：Accuracy = 43121 / 50319 = 0.8569526421431268
+
+epoch 4 训练完成
+训练集train.conll：Accuracy = 20256 / 20454 = 0.9903197418597829
+验证集dev.conll：Accuracy = 44595 / 50319 = 0.8862457521015918
+
+epoch 5 训练完成
+训练集train.conll：Accuracy = 20347 / 20454 = 0.9947687493888726
+验证集dev.conll：Accuracy = 44706 / 50319 = 0.8884516782924939
+
+epoch 6 训练完成
+训练集train.conll：Accuracy = 20425 / 20454 = 0.9985821844138066
+验证集dev.conll：Accuracy = 44735 / 50319 = 0.8890280013513782
+
+epoch 7 训练完成
+训练集train.conll：Accuracy = 20418 / 20454 = 0.9982399530654151
+验证集dev.conll：Accuracy = 44748 / 50319 = 0.8892863530674298
+
+epoch 8 训练完成
+训练集train.conll：Accuracy = 20452 / 20454 = 0.9999022196147452
+验证集dev.conll：Accuracy = 44855 / 50319 = 0.8914127864226237
+
+epoch 9 训练完成
+训练集train.conll：Accuracy = 20449 / 20454 = 0.9997555490368633
+验证集dev.conll：Accuracy = 44875 / 50319 = 0.8918102506011646
+
+epoch 10 训练完成
+训练集train.conll：Accuracy = 20450 / 20454 = 0.9998044392294906
+验证集dev.conll：Accuracy = 44925 / 50319 = 0.8928039110475169
+
+epoch 11 训练完成
+训练集train.conll：Accuracy = 20454 / 20454 = 1.0
+验证集dev.conll：Accuracy = 44918 / 50319 = 0.8926647985850276
+
+epoch 12 训练完成
+训练集train.conll：Accuracy = 20453 / 20454 = 0.9999511098073727
+验证集dev.conll：Accuracy = 44917 / 50319 = 0.8926449253761005
+
+epoch 13 训练完成
+训练集train.conll：Accuracy = 20454 / 20454 = 1.0
+验证集dev.conll：Accuracy = 44920 / 50319 = 0.8927045450028817
+
+epoch 14 训练完成
+训练集train.conll：Accuracy = 20454 / 20454 = 1.0
+验证集dev.conll：Accuracy = 44933 / 50319 = 0.8929628967189333
+
+epoch 15 训练完成
+训练集train.conll：Accuracy = 20454 / 20454 = 1.0
+验证集dev.conll：Accuracy = 44925 / 50319 = 0.8928039110475169
+
+epoch 16 训练完成
+训练集train.conll：Accuracy = 20454 / 20454 = 1.0
+验证集dev.conll：Accuracy = 44935 / 50319 = 0.8930026431367873
+
+epoch 17 训练完成
+训练集train.conll：Accuracy = 20454 / 20454 = 1.0
+验证集dev.conll：Accuracy = 44919 / 50319 = 0.8926846717939546
+
+epoch 18 训练完成
+训练集train.conll：Accuracy = 20454 / 20454 = 1.0
+验证集dev.conll：Accuracy = 44925 / 50319 = 0.8928039110475169
+
+epoch 19 训练完成
+训练集train.conll：Accuracy = 20454 / 20454 = 1.0
+验证集dev.conll：Accuracy = 44942 / 50319 = 0.8931417555992767
+
+epoch 20 训练完成
+训练集train.conll：Accuracy = 20454 / 20454 = 1.0
+验证集dev.conll：Accuracy = 44925 / 50319 = 0.8928039110475169
+
+epoch 21 训练完成
+训练集train.conll：Accuracy = 20454 / 20454 = 1.0
+验证集dev.conll：Accuracy = 44921 / 50319 = 0.8927244182118087
+
+epoch 22 训练完成
+训练集train.conll：Accuracy = 20454 / 20454 = 1.0
+验证集dev.conll：Accuracy = 44923 / 50319 = 0.8927641646296628
+
+epoch 23 训练完成
+训练集train.conll：Accuracy = 20454 / 20454 = 1.0
+验证集dev.conll：Accuracy = 44929 / 50319 = 0.8928834038832251
+
+epoch 24 训练完成
+训练集train.conll：Accuracy = 20454 / 20454 = 1.0
+验证集dev.conll：Accuracy = 44940 / 50319 = 0.8931020091814226
+
+epoch 25 训练完成
+训练集train.conll：Accuracy = 20454 / 20454 = 1.0
+验证集dev.conll：Accuracy = 44930 / 50319 = 0.8929032770921521
+
+epoch 26 训练完成
+训练集train.conll：Accuracy = 20454 / 20454 = 1.0
+验证集dev.conll：Accuracy = 44922 / 50319 = 0.8927442914207357
+
+epoch 27 训练完成
+训练集train.conll：Accuracy = 20454 / 20454 = 1.0
+验证集dev.conll：Accuracy = 44929 / 50319 = 0.8928834038832251
+
+epoch 28 训练完成
+训练集train.conll：Accuracy = 20454 / 20454 = 1.0
+验证集dev.conll：Accuracy = 44928 / 50319 = 0.892863530674298
+
+epoch 29 训练完成
+训练集train.conll：Accuracy = 20454 / 20454 = 1.0
+验证集dev.conll：Accuracy = 44930 / 50319 = 0.8929032770921521
+
+验证集正确率连续10轮没有上升,BP神经网络结束训练。
+最大正确率：epoch：19,  Max Accuracy：0.8931417555992767
+
+四、总共耗时：0:16:36.302705
