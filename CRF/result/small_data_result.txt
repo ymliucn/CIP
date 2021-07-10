@@ -1,0 +1,94 @@
+一、读入数据
+数据集train.conll：句子数：803,  总词数：20454,  词性种类数：31
+数据集dev.conll：句子数：1910,  总词数：50319,  词性种类数：30
+
+二、创建特征空间
+特征空间维度 = 部分特征数 × 词性种类数 = 67359 × 31 + 32 × 31 = 2089121
+
+三、CRF开始训练
+
+iteration 1 训练完成
+训练集train.conll：Accuracy = 16827 / 20454 = 0.8226752713405691
+验证集dev.conll：Accuracy = 42406 / 50319 = 0.8427432977602893
+
+iteration 2 训练完成
+训练集train.conll：Accuracy = 19667 / 20454 = 0.9615234184022685
+验证集dev.conll：Accuracy = 42971 / 50319 = 0.85397166080407
+
+iteration 3 训练完成
+训练集train.conll：Accuracy = 20131 / 20454 = 0.9842084677813631
+验证集dev.conll：Accuracy = 43815 / 50319 = 0.8707446491384964
+
+iteration 4 训练完成
+训练集train.conll：Accuracy = 20335 / 20454 = 0.9941820670773442
+验证集dev.conll：Accuracy = 44256 / 50319 = 0.8795087342753234
+
+iteration 5 训练完成
+训练集train.conll：Accuracy = 20389 / 20454 = 0.9968221374792217
+验证集dev.conll：Accuracy = 44451 / 50319 = 0.8833840100160973
+
+iteration 6 训练完成
+训练集train.conll：Accuracy = 20437 / 20454 = 0.9991688667253349
+验证集dev.conll：Accuracy = 44479 / 50319 = 0.8839404598660545
+
+iteration 7 训练完成
+训练集train.conll：Accuracy = 20444 / 20454 = 0.9995110980737264
+验证集dev.conll：Accuracy = 44518 / 50319 = 0.8847155150142093
+
+iteration 8 训练完成
+训练集train.conll：Accuracy = 20449 / 20454 = 0.9997555490368633
+验证集dev.conll：Accuracy = 44549 / 50319 = 0.8853315844909477
+
+iteration 9 训练完成
+训练集train.conll：Accuracy = 20451 / 20454 = 0.9998533294221179
+验证集dev.conll：Accuracy = 44577 / 50319 = 0.885888034340905
+
+iteration 10 训练完成
+训练集train.conll：Accuracy = 20451 / 20454 = 0.9998533294221179
+验证集dev.conll：Accuracy = 44600 / 50319 = 0.8863451181462271
+
+iteration 11 训练完成
+训练集train.conll：Accuracy = 20452 / 20454 = 0.9999022196147452
+验证集dev.conll：Accuracy = 44585 / 50319 = 0.8860470200123214
+
+iteration 12 训练完成
+训练集train.conll：Accuracy = 20452 / 20454 = 0.9999022196147452
+验证集dev.conll：Accuracy = 44613 / 50319 = 0.8866034698622787
+
+iteration 13 训练完成
+训练集train.conll：Accuracy = 20453 / 20454 = 0.9999511098073727
+验证集dev.conll：Accuracy = 44622 / 50319 = 0.8867823287426221
+
+iteration 14 训练完成
+训练集train.conll：Accuracy = 20453 / 20454 = 0.9999511098073727
+验证集dev.conll：Accuracy = 44598 / 50319 = 0.886305371728373
+
+iteration 15 训练完成
+训练集train.conll：Accuracy = 20452 / 20454 = 0.9999022196147452
+验证集dev.conll：Accuracy = 44635 / 50319 = 0.8870406804586737
+
+iteration 16 训练完成
+训练集train.conll：Accuracy = 20453 / 20454 = 0.9999511098073727
+验证集dev.conll：Accuracy = 44590 / 50319 = 0.8861463860569566
+
+iteration 17 训练完成
+训练集train.conll：Accuracy = 20452 / 20454 = 0.9999022196147452
+验证集dev.conll：Accuracy = 44627 / 50319 = 0.8868816947872573
+
+iteration 18 训练完成
+训练集train.conll：Accuracy = 20453 / 20454 = 0.9999511098073727
+验证集dev.conll：Accuracy = 44609 / 50319 = 0.8865239770265705
+
+iteration 19 训练完成
+训练集train.conll：Accuracy = 20453 / 20454 = 0.9999511098073727
+验证集dev.conll：Accuracy = 44601 / 50319 = 0.8863649913551541
+
+iteration 20 训练完成
+训练集train.conll：Accuracy = 20453 / 20454 = 0.9999511098073727
+验证集dev.conll：Accuracy = 44632 / 50319 = 0.8869810608318925
+
+验证集正确率连续5轮没有上升,CRF结束训练。
+
+验证集最大正确率：iteration：15,  Max Accuracy：0.8870406804586737
+
+四、总共耗时：0:07:02.255111
