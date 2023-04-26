@@ -1,4 +1,4 @@
-# HLT基础编码练习
+# HLT基础编码练习个人实现
 
 [新生夏令营主页](http://hlt.suda.edu.cn/index.php/New-stu-training)
 
